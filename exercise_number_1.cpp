@@ -28,7 +28,7 @@ int main() {
     else {cout << "condition is false";}
     
     // 5 только одно из чисел X, Y и Z кратно пяти
-    if ((x % 5 == 0 && y || z % 5 != 0) || (y % 5 == 0 && x || z % 5 != 0) || (z % 5 == 0 && x || y % 5 != 0)) {
+    if ((x % 5 == 0 && (y || z % 5 != 0)) || (y % 5 == 0 && (x || z % 5 != 0)) || (z % 5 == 0 && (x || y % 5 != 0))) {
     cout << "condition is true";} 
     else {cout << "condition is false";}
     
